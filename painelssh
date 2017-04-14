@@ -29,7 +29,7 @@ wget https://raw.githubusercontent.com/QualityNet/painel/master/matriz.sh
 cd /var/www
 wget https://raw.githubusercontent.com/QualityNet/painel/master/painelssh.zip
 unzip painelssh.zip
-rm painelssh.zip
+rm painelssh.zip index.html
 rm index.html
 clear
 echo -e "\033[1;31mPAINEL SSH INSTALADO COM SUCESSO AGORA IMPORTE O ARQUIVO PAINEL SQL NO PHPMYADMIN.\033[0m"
