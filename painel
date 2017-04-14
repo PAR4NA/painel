@@ -24,6 +24,7 @@ service squid3 restart
 /etc/init.d/apache2 restart
 cd /var
 wget https://raw.githubusercontent.com/QualityNet/painel/master/matriz.sh
+cd
 apt-get update -y
 cd /var/www/html
 rm index.html
