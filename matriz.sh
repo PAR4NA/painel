@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-cd /var/www/PainelServer/includes
+cd /var/www/painelssh/includes
 ./onlines.sh
